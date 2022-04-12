@@ -1,12 +1,13 @@
-import Home from "../pages/Home";
-import styles from "./App.module.css";
+import Result from "../pages/result/Result";
+import "./App.css";
 import Layout from "./layout/Layout";
 
 
 function App() {
   return (
-    <Layout className={styles.app}>
-      <Home />
+    <Layout>
+
+      <Result />
     </Layout>
   );
 }
