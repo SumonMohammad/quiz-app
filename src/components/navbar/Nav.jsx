@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo-bg.png";
 import Account from '../account/Account';
 import styles from "./Nav.module.css";
 
@@ -12,8 +11,8 @@ const Nav = () => {
             <ul>
                 <li>
                     <Link to="/" className={styles.brand}>
-                        <img src={logo} alt="Learn with Sumit Logo" />
-                        <h3>Learn with Sumit</h3>
+
+                        <h3>Learn Web Development</h3>
                     </Link>
                 </li>
             </ul>
